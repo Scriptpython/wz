@@ -1,0 +1,43 @@
+html,body {height:100%;-webkit-font-smoothing:subpixel-antialiased;}
+body,p,table,input,label,button,h2,h3,pre,ul,li{margin:0;padding:0;list-style:none;font:normal 100%/1.6em 'Microsoft YaHei',Helvetica,Tahoma,Arial,sans-serif;}
+.clearfix,ul.table li{zoom:1;}
+.clearfix:before, ul.table li:before, .clearfix:after, ul.table li:after{content:" ";display: table;clear: both;}
+body{color:#394356;background:#A8AEB6;}
+a{color:#f92672;cursor:pointer}
+a,a:hover{text-decoration:none}
+
+#main{font-size:0.75em;width:600px;min-width:450px;margin:0 auto;background-color:#DAD8D9;-moz-box-shadow:0 0 40px rgba(0, 0, 0, 0.15);-webkit-box-shadow:0 0 40px rgba(0, 0, 0, 0.15);box-shadow:0 0 40px rgba(0, 0, 0, 0.15)}
+.admin a{color:#4B5669;}
+.header{background-color:#4B5669;color:#C0C3C7;text-align:center;padding: 20px;}
+.header h2,.header span{font-size:1.5em}
+.header a{color:#C0C3C7}
+.header a:hover{color:#FFF}
+
+ul.navi li{position:relative;float:left;text-align:center;width:20%;line-height:50px}
+ul.navi li a{display:block;background-color:#C0C3C7;color:#4B5669;border-left:1px solid #AFB0BF;cursor:pointer;}
+ul.navi li a.fst,ul.navi li.fst a{border-left:none;}
+ul.navi li a:hover,ul.navi li.tabx a.active{background-color:#A1A4AD}
+ul.navi li div.sec{position:absolute;left:0;display:none;width:100%;border-right: 1px solid #AFB0BF;}
+ul.navi li div.sec a{border-bottom: 1px solid #AFB0BF}
+
+.body{padding:20px}
+.body p{line-height:2;margin:1em 0}
+.body p a{text-decoration:underline;color:#394356;}
+.body p a:hover{color:#F00}
+
+ul.list li{line-height:50px;border-top:1px solid #AFB0BF;padding:0 20px;}
+ul.table li{padding:0}
+ul.table li div{float:left;text-align:center}
+ul.table li div.x{width:8.33333333333333%}
+ul.table li div.x2{width:16.66666666666667%}
+ul.table li div.x3{width:24.99999999999999%}
+ul.table li div:hover{background-color:#D0CECF;}
+ul.table li div a{color:#4B5669;}
+ul.table li div a,ul.table li div i{cursor:pointer}
+ul.table li div a,ul.table li div i,ul.table li div b{font-weight:normal;font-style:normal;display:block;border-left: 1px solid #d0cecf}
+
+.footer{margin:0 auto;padding:20px;}
+
+@media screen and (max-width:600px){
+	#main{width:100%}
+}
