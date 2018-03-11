@@ -49,7 +49,7 @@ $(function(){
         $('#B15').attr('href','http://64.62.209.164/forum.php');
         $('#B16').attr('href','http://64.62.209.170/forum.php');
 
-        $('#B21').attr('href','https://www.jsmrtx.com/forum.php');
+        $('#B21').attr('href','https://www.jsmrth.com/forum.php');
         $('#B22').attr('href','https://www.jsmrtu.com/forum.php');
         $('#B23').attr('href','http://www.jsmr5.com/');
         $('#B24').attr('href','http://www.jsmrdizhi.com/');
