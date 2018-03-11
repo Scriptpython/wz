@@ -1,0 +1,58 @@
+<ul class="navi clearfix">
+    <li><a class="fst" href="/">首 页</a></li>
+    <li><a href="about.html">说 明</a></li>
+    <li><a href="qun.html">群</a></li>
+    <li>
+        <a>教程帮助 <span>▼</span></a>
+        <div class="sec">
+            <a href="pass">服务说明</a>
+            <a href="pass">服务说明</a>
+        </div>
+    </li>
+    <li><a href="https://v5xp.com/" target="_blank">会员帐号通</a></li>
+</ul>
+<script type="text/javascript">
+    $(function(){
+    	$('.navi li').hover(function(){
+        	$('a span',this).text("▲");
+    		$('.sec',this).css('top','51px').slideDown(300);
+    	},function(){
+        	$('a span',this).text("▼");
+    		$('.sec',this).slideUp(300);
+    	});
+    });
+</script>
+<ul class="list tip clearfix">
+    <li>
+        <a id="HB"><img src="hb.png" alt="领红包"></a>
+       <span>&#10148 QQ：197736515</span>
+       <span>&#10148 微信：<a id="WX">点此关注</a></span>
+       <span>&#10148 加客服直接说问题</span>
+    </li>
+</ul>
+<script type="text/javascript">
+  $('#WX').on('click', function(){
+    layer.open({
+      type: 1,
+      skin: 'layui-layer-lan',
+      shadeClose: true,
+      content: '<img src="wx.png">'
+    });
+  });
+  $('#QUN').on('click', function(){
+    layer.open({
+      type: 1,
+      skin: 'layui-layer-lan',
+      shadeClose: true,
+      content: '<img src="qun.png">'
+    });
+  });
+  $('#HB').on('click', function(){
+    layer.open({
+      type: 1,
+      skin: 'layui-layer-lan',
+      shadeClose: true,
+      content: '<img src="hbewm.png">'
+    });
+  });
+</script>

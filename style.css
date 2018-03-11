@@ -1,15 +1,22 @@
 html,body {height:100%;-webkit-font-smoothing:subpixel-antialiased;}
-body,p,table,input,label,button,h2,h3,pre,ul,li{margin:0;padding:0;list-style:none;font:normal 100%/1.6em 'Microsoft YaHei',Helvetica,Tahoma,Arial,sans-serif;}
+html,body,p,input,label,button,h1,h2,h3,ul,li{margin:0;padding:0;list-style:none;font:normal 12px/1.8 'Microsoft YaHei',Helvetica,Tahoma,Arial,sans-serif;}
 .clearfix,ul.table li{zoom:1;}
 .clearfix:before, ul.table li:before, .clearfix:after, ul.table li:after{content:" ";display: table;clear: both;}
 body{color:#394356;background:#A8AEB6;}
 a{color:#f92672;cursor:pointer}
 a,a:hover{text-decoration:none}
 
-#main{font-size:0.75em;width:600px;min-width:450px;margin:0 auto;background-color:#DAD8D9;-moz-box-shadow:0 0 40px rgba(0, 0, 0, 0.15);-webkit-box-shadow:0 0 40px rgba(0, 0, 0, 0.15);box-shadow:0 0 40px rgba(0, 0, 0, 0.15)}
+
+h1{font-size:24px}
+h2, h3{font-size:18px}
+p span{display:-webkit-inline-box;line-height:2}
+#laycon,.layui-layer .layui-layer-title{font-size:12px}
+.layui-layer .layui-layer-title{text-align:center;padding:0;letter-spacing:1em}
+.layui-layer .layui-layer-content{padding:20px;}
+
+#main{width:600px;min-width:450px;margin:0 auto;background-color:#DAD8D9;-moz-box-shadow:0 0 40px rgba(0, 0, 0, 0.15);-webkit-box-shadow:0 0 40px rgba(0, 0, 0, 0.15);box-shadow:0 0 40px rgba(0, 0, 0, 0.15)}
 .admin a{color:#394356;}
 .header{background-color:#4B5669;color:#C0C3C7;text-align:center;padding: 20px;}
-.header h2,.header span{font-size:1.5em}
 .header a{color:#C0C3C7}
 .header a:hover{color:#FFF}
 
@@ -26,6 +33,9 @@ ul.navi li div.sec a{border-bottom: 1px solid #AFB0BF}
 .body p a:hover{color:#F00}
 
 ul.list li{line-height:50px;border-top:1px solid #AFB0BF;padding:0 20px;}
+ul.tip li{position: relative;}
+ul.tip li span{width:33.3333333%;float:left;display: block;}
+ul.tip li #HB{position: absolute;right:10px;top:8px}
 ul.table li{padding:0}
 ul.table li div{float:left;text-align:center}
 ul.table li div.x{width:8.33333333333333%}
