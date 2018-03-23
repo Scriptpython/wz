@@ -104,10 +104,7 @@ $(function(){
         $('#C54').attr('href','http://www.lieyanjh.com/');
         
         $('#C6').attr('href','http://www.atc16.com/forum.php');
-        
-        $('#C71').attr('href','http://www.qlsba.info/forum.php');
-        $('#C72').attr('href','http://www.quloushangba.cc/forum.php');
-        
+        $('#C7').attr('href','http://www.qlsba.com/forum.php');
         $('#C8').attr('href','http://www.khl8.info/');
         
         $('#C91').attr('href','http://www.whlaaa.com/forum.php');
@@ -177,7 +174,7 @@ $(function(){
         $('#E7').attr('href','http://shaofutang.com/forum.php');
         
         $('#E81').attr('href','http://www.xffuqi.com/forum.php');
-        $('#E81').attr('href','http://www.xfjy1.com/');
+        $('#E82').attr('href','http://www.xfjy1.com/');
         
 //----------------------------------------------------------------
 
