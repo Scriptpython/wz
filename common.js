@@ -239,7 +239,7 @@ $('#VSP1').on('click', function(){
       type: 1,
       skin: 'layui-layer-lan',
       shadeClose: true,
-      content: 'VIP3/4/5/6 价格 170/250/340/430<br>VIP包月号50，少量到货，卖完为止'
+      content: 'VIP3/4/5/6 价格 170/250/340/430<br>包月号60，少量到货，卖完为止'
     });
 });
 $('#VSP2').on('click', function(){
