@@ -24,11 +24,13 @@ ul.navi li{position:relative;float:left;text-align:center;width:20%;line-height:
 ul.navi li a{display:block;background-color:#C0C3C7;color:#394356;border-left:1px solid #AFB0BF;cursor:pointer;}
 ul.navi li a.fst,ul.navi li.fst a{border-left:none;}
 ul.navi li a:hover,ul.navi li.tabx a.active{background-color:#A1A4AD}
-ul.navi li div.sec{position:absolute;left:0;display:none;width:100%;border-right: 1px solid #AFB0BF;}
+ul.navi li div.sec{z-index:1;position:absolute;left:0;display:none;width:100%;border-right: 1px solid #AFB0BF;}
 ul.navi li div.sec a{border-bottom: 1px solid #AFB0BF}
 
 .body{padding:20px}
 .body p{line-height:2;margin:1em 0}
+.body p span{display: block;text-align: center;}
+.body p span img{max-width:100%;border:5px solid #A8AEB6;border-radius: 5px}
 .body p a{text-decoration:underline;color:#394356;}
 .body p a:hover{color:#F00}
 
