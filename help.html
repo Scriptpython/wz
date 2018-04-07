@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="renderer" content="webkit">
+    <meta name="referrer" content="never">
+    <meta http-equiv="Cache-Control" content="no-transform"> 
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=520, initial-scale=1, maximum-scale=1, user-scalable=yes">
+    <title>帮助中心 | 威武网址 | V5WZ.COM </title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script type="text/javascript" src="/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="/layer/layer.js"></script>
+    <script type = "text/javascript" >
+        $.get("/menu.html",function(data){
+             $("#menu").html(data);
+        });
+        $.get("/foot.html",function(data){
+             $("#foot").html(data);
+        });
+    </script>
+</head>
+<body>
+    <div id="main">
+        <img style="display: block;width:100%" src="//ww1.sinaimg.cn/large/0060lm7Tly1fp5j3x02jaj30go02i75t.jpg">
+        <div class="header clearfix"><h1><a href="/">—— 威武网址导航 V5WZ.COM ——</a></h1></div>
+        <div id="menu"></div>
+        <div class="header cats"><h2>—— 帮助中心 ——</h2></div>
+        <div class="body">
+            <p>人 外 总 有 人 ， 山 外 终 有 山 ！</p>
+            <p>不是每个人都天天趴在电脑旁边，对于网络的各种应用都得心应手。</p>
+            <p>这个页面记录了经常用到的各种软件应用，能解决网页打不开等一些初级问题。</p>
+        </div>
+        <div class="header cats"><h3>—— 科学上网 ——</h3></div>
+        <div class="body">
+            <p>&#10148 <a href="/help/setupvpn.html" target="_blank">SetupVPN使用教程</a></p>
+            <p>&#10148 <a href="https://github.com/getlantern/forum/issues/833" target="_blank">炒鸡好用的 蓝灯</a></p>
+            <p>&#10148 <a href="https://git.io/fgp" target="_blank">某门XX软件</a>，<a href="https://git.io/vEJlj" target="_blank">某界XX软件</a></p>
+            <p>&#10148 <a href="https://github.com/gfw-breaker/ssr-accounts" target="_blank">免费$$帐号1</a>，
+                        <a href="https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7#%E5%85%8D%E8%B4%B9ssssr%E8%8A%82%E7%82%B9%E5%88%97%E8%A1%A8%E4%B8%8D%E5%AE%9A%E6%9C%9F%E6%9B%B4%E6%96%B0%E8%B4%A6%E5%8F%B7ip%E6%88%96%E7%AB%AF%E5%8F%A3%E6%88%96%E5%AF%86%E7%A0%81" target="_blank">免费$$帐号2</a>，
+                        <a href="https://github.com/max2max/freess" target="_blank">免费$$帐号3</a>，
+                        <a href="https://github.com/max2max/freess/wiki/" target="_blank">免费$$帐号4</a>，
+            </p>
+            <p>&#10148 <a href="http://ac.scmor.com/" target="_blank">Google镜像</a></p>
+        </div>
+        <div id="foot"></div>
+    </div>
+</body>
+</html>
