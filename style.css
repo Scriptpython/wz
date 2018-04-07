@@ -3,7 +3,7 @@ html,body,p,input,label,button,h1,h2,h3,ul,li{margin:0;padding:0;list-style:none
 .clearfix,ul.table li{zoom:1;}
 .clearfix:before, ul.table li:before, .clearfix:after, ul.table li:after{content:" ";display: table;clear: both;}
 body{color:#394356;background:#A8AEB6;}
-a{color:#f92672;cursor:pointer}
+a{color:#F00;cursor:pointer}
 a,a:hover{text-decoration:none}
 
 
