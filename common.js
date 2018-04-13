@@ -67,8 +67,8 @@ $(function(){
         $('#B5').attr('href','http://www.xin9yang.net/bbs/forum.php');
         $('#B6').attr('href','http://www.qmxyc.com/forum.php');
         $('#B7').attr('href','http://www.3ajiepai.com/');
-        $('#B81').attr('href','http://www.taonvgu.com/forum.php');
-        $('#B82').attr('href','http://taonv2.com');
+        $('#B81').attr('href','http://www.taonv6.com/forum.php?tg=7102');
+        $('#B82').attr('href','http://www.taonv6.com/forum.php?tg=7102');
         $('#B91').attr('href','http://www.jp59.com/');
         $('#B92').attr('href','http://www.jiepaixz.com/');
         
