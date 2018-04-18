@@ -13,20 +13,45 @@
     <link rel="shortcut icon" href="/favicon.ico">
     <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="layer/layer.js"></script>
-    <script type = "text/javascript" >
-        $.get("menu.html",function(data){
-             $("#menu").html(data);
-        });
-        $.get("foot.html",function(data){
-             $("#foot").html(data);
-        });
-    </script>
 </head>
 <body>
     <div id="main">
         <img style="display: block;width:100%" src="//ww1.sinaimg.cn/large/0060lm7Tly1fp5j3x02jaj30go02i75t.jpg">
         <div class="header clearfix"><h1><a href="/">—— 威武网址导航 V5WZ.COM ——</a></h1></div>
-        <div id="menu"></div>
+        <div id="menu">
+            <ul class="navi clearfix">
+                <li><a class="fst" href="/">首 页</a></li>
+                <li><a href="/about.html">关于本站</a></li>
+                <li><a href="/help.html">帮助中心</a></li>
+                <li><a href="/buy.html"><font color="red">在线购买</font></a></li>
+                <li><a href="https://v5xp.com/" target="_blank">会员帐号通</a></li>
+            </ul>
+            <ul class="list tip clearfix">
+                <li>
+                   <span>&#10148 QQ：<font color="red">197736515</font></span>
+                   <span>&#10148 微信：<a id="WX">点此关注</a></span>
+                   <span>&#10148 不加群会死星人：<a id="QUN">戳这里</a></span>
+                </li>
+            </ul>
+            <script type="text/javascript">
+              $('#WX').on('click', function(){
+                layer.open({
+                  type: 1,
+                  skin: 'layui-layer-lan',
+                  shadeClose: true,
+                  content: '<img src="/wx.png">'
+                });
+              });
+              $('#QUN').on('click', function(){
+                layer.open({
+                  type: 1,
+                  skin: 'layui-layer-lan',
+                  shadeClose: true,
+                  content: '<img src="/qun.png">'
+                });
+              });
+            </script>            
+        </div>
         <div class="header cats"><h2>—— 在 线 购 买 ——</h2></div>
         <div class="body">
             <p>&#10148 方式1、拿起手机直接用微信，支付宝，QQ扫码支付。</p>
@@ -37,7 +62,14 @@
             <p>&#10148 收到付款即刻发货，如有意外可随时联系客服补单。</p>
             <p><img src="//wx2.sinaimg.cn/mw690/0060lm7Tly1fq4m4agb3qj30p00zf78y.jpg" width="100%" border="0"></p>
         </div>
-        <div id="foot"></div>
+        <div id="foot">
+            <div class="header footer">
+                <h3>—— 提 示 牌 ——</h3>
+                <p><span>下单前仔细挑，不能退换！</span></p>
+                <p><span>网址来源为各官方发布，谨防假网</span></p>
+               <p><span> —— 威武网址导航 V5WZ.COM ——</span></p>
+            </div>            
+        </div>
     </div>
 </body>
 </html>
