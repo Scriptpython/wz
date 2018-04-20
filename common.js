@@ -263,7 +263,7 @@ $('#VA12').on('click', function(){
       type: 1,
       skin: 'layui-layer-lan',
       shadeClose: true,
-      content: '一级老号65：用户名随机，死邮，自己改密加密保。'
+      content: '一级老号80：用户名随机，死邮，自己改密加密保。'
     });
 });
 $('#VA13').on('click', function(){
@@ -279,7 +279,7 @@ $('#VA14').on('click', function(){
       type: 1,
       skin: 'layui-layer-lan',
       shadeClose: true,
-      content: '3级定制/300，需提供用户名/邮箱，1-3天完成。'
+      content: '3级定制/350，需提供用户名/邮箱，1-3天完成。'
     });
 });
 $('#VA3').on('click', function(){
