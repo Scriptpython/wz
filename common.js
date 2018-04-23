@@ -151,8 +151,8 @@ $(function(){
         
 //----------------------------------------------------------------
 
-        $('#E11').attr('href','https://ywzd008.com/forum.php');
-        $('#E12').attr('href','https://ywzd007.com/forum.php');
+        $('#E11').attr('href','https://1.ywzd1.com/');
+        $('#E12').attr('href','https://iywzd.org');
         $('#E13').attr('href','https://ywzd004.com/forum.php');
         
         $('#E21').attr('href','http://www.hudie360.com/');
